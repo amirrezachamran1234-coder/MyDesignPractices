@@ -1,0 +1,117 @@
+#تمرین اول
+def print_example(x):
+    y = x**2
+    print("y =", y)
+
+def return_example(x):
+    y = x**2
+    return y
+
+result = return_example(5)
+print("y =", result)
+
+#تمرین دوم
+# 1) y = 5
+def equation1_print():
+    y = 5
+    print("y =", y)
+
+def equation1_return():
+    y = 5
+    return y
+
+result = equation1_return()
+print("y =", result)
+
+
+# 2) y = x
+def equation2_print(x):
+    y = x
+    print("y =", y)
+
+def equation2_return(x):
+    y = x
+    return y
+
+result = equation2_return(7)
+print("y =", result)
+
+
+# 3) y = ax^3 + bx^2 + 2x + d
+def equation3_print(a, b, x, d):
+    y = a * x**3 + b * x**2 + 2 * x + d
+    print("y =", y)
+
+def equation3_return(a, b, x, d):
+    y = a * x**3 + b * x**2 + 2 * x + d
+    return y
+
+result = equation3_return(1, 2, 3, 4)
+print("y =", result)
+
+
+# 4) y = a^x
+def equation4_print(a, x):
+    y = a ** x
+    print("y =", y)
+
+def equation4_return(a, x):
+    y = a ** x
+    return y
+
+result = equation4_return(2, 3)
+print("y =", result)
+
+
+# 5) y = -x
+def equation5_print(x):
+    y = -x
+    print("y =", y)
+
+def equation5_return(x):
+    y = -x
+    return y
+
+result = equation5_return(5)
+print("y =", result)
+
+
+# 6) y = w - a*d/f
+def equation6_print(w, a, d, f):
+    y = w - (a * d) / f
+    print("y =", y)
+
+def equation6_return(w, a, d, f):
+    y = w - (a * d) / f
+    return y
+
+result = equation6_return(10, 2, 4, 2)
+print("y =", result)
+
+
+# 7) y = ax + bz
+def equation7_print(a, x, b, z):
+    y = a * x + b * z
+    print("y =", y)
+
+def equation7_return(a, x, b, z):
+    y = a * x + b * z
+    return y
+
+result = equation7_return(2, 3, 4, 5)
+print("y =", result)
+
+
+# 8) y = x^2 + bx + c
+def equation8_print(x, b, c):
+    y = x**2 + b*x + c
+    print("y =", y)
+
+def equation8_return(x, b, c):
+    y = x**2 + b*x + c
+    return y
+
+result = equation8_return(2, 3, 1)
+print("y =", result)
+
+
